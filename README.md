@@ -47,14 +47,14 @@ Pasos para inmplementar el proyecto
 <p>1-. Descargar/instalar laragon</p>
 <p>2-. Decargar/instalar git</p>
 <p>3-. Abrir git en el directorio www de laragon</p>
-<p>4-. clonar repositorio "git clone https://github.com/ImhoDev/appbase.git"</p>
-<p>5-. Desde la terminal de laragon/appbase instalar las dependencias de PHP "composer install"</p>
-<p>6-. Desde la terminal de laragon/appbase instalar las dependencias de JS "npm install && npm run dev"</p>
-<p>7-. Crear la base de datos "appbase" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE appbase;"</p>
+<p>4-. clonar repositorio "git clone https://github.com/ImhoDev/app.git"</p>
+<p>5-. Desde la terminal de laragon/app instalar las dependencias de PHP "composer install"</p>
+<p>6-. Desde la terminal de laragon/app instalar las dependencias de JS "npm install && npm run dev"</p>
+<p>7-. Crear la base de datos "app" recomiendo usar phpmyadmin para crear la base de datos, o usar la consola de laragon "CREATE DATABASE app;"</p>
 <p>8-. Duplicar y renombrar .env.example a .env</o>
 <p>9-. Configurar el archivo .env con los datos de mysql</p>
 <p>10-. Reinciar laragon desde la consola con "reload laragon" desde el escritorio principal de laragon que habitualmente es C:\laragon </p>
-<p>11-. Vistar "http://appbase.test" desde cualquier navegador.</p>
+<p>11-. Vistar "http://app.test" desde cualquier navegador.</p>
 <p>12-. Vemos que sale un error, hay que generar el key ejecuentado "php artisan key:generate"</p>
 <p>13-. Sale error porque no hemos realizado las migraciones, para solucionar ejecutar las migraciones. </p>
 <p>14-. Eliminar directorio oculto .git</p>
