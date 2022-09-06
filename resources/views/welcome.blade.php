@@ -32,8 +32,14 @@
                 @endif
                 </div>
                 <img src="https://agenciaartedigital.com/wp-content/uploads/2021/06/LOGO-arte-digital-2048x628.png" alt="" viewbox="0 0 296 76" class="w-64">
-                <p class="px-4 mt-8 text-lg leading-normal text-center">"Una solución al problema, evita que la solución sea el problema"</p>
-                <div class="mt-14 md:flex">
+                <p class="px-4 mt-8 text-lg leading-normal text-center">"En software, < < bello y elegante>>” significa fácil y barato de evolucionar y mantener</p>
+                <div class="mt-15 md:flex">
+                    <a href="login" class="flex items-center px-4 py-2 mx-2 mt-2 text-gray-700 bg-white border rounded-lg hover:bg-gray-200 hover:border-gray-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current mr-2 w-4 h-4">
+                            <path d="M6 4H5a1 1 0 1 1 0-2h11V1a1 2 0 0 0-1-1H4a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 4 0 0 0 2-2V5a1 1 0 0 0-1-1h-7v8l-5-5-2 2V4z"></path>
+                        </svg>
+                        Login
+                    </a>
                     <a href="/docs/installation" class="flex items-center px-4 py-2 mx-2 mt-2 text-gray-700 bg-white border rounded-lg hover:bg-gray-200 hover:border-gray-500">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="fill-current mr-2 w-4 h-4">
                             <path d="M6 4H5a1 1 0 1 1 0-2h11V1a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V5a1 1 0 0 0-1-1h-7v8l-2-2-2 2V4z"></path>
@@ -64,7 +70,7 @@
                   API
               </a>
             </div>
-            <footer class="flex items-center justify-center h-16 mt-14 mb-24 text-gray-500 text-xs">
+            <footer class="flex items-center justify-center h-16 mt-15 mb-24 text-gray-500 text-xs">
             Alojado en
             <a href="https://m.do.co/c/49da1c99745c" rel="noopener noreferrer" target="_blank" class="text-gray-500 hover:border-digitalocean-blue">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172 29" class="mx-2 fill-current h-4">

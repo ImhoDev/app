@@ -1,19 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-    @livewireStyles
-
-        <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
-</head>
-<body class="h-screen overflow-hidden flex items-center justify-center" style="background: #edf2f7;">
-    <body class="font-poppins antialiased">
     <div
       id="view"
       class="h-full w-screen flex flex-row"
@@ -233,18 +217,4 @@
       </div>
      
     </div>
-
-    <script src="js/graph.js" type="text/javascript"></script>
-    <script>
-      var user = document.getElementById("user-chart").nodeName;
-      var chart = new Graph({
-        data: [1, 20, 5, 6, 8],
-        target: document.querySelector(user),
-      });
-    </script>
-            @stack('modals')
-
-        @livewireScripts
-  </body>
-</body>
-</html>
+ 
